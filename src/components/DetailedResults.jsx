@@ -208,7 +208,7 @@ export const DetailedResults = ({ categoryScores, totalScore }) => {
   return (
     <Tabs defaultValue="overview" className="w-full">
       <TabsList className="grid w-full grid-cols-3">
-        <TabsTrigger value="overview">Resumen General</TabsTrigger>
+        <TabsTrigger value="overview">Resumen</TabsTrigger>
         <TabsTrigger value="details">Detalles</TabsTrigger>
         <TabsTrigger value="recommendations">Recomendaciones</TabsTrigger>
       </TabsList>
