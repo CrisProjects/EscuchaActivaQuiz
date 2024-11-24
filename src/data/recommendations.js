@@ -1,253 +1,199 @@
 export const recommendations = {
-    "Atención y Enfoque": {
+  "Atención y Enfoque": {
       basic: [
-        {
-          title: "Practica la meditación mindfulness",
-          description: "Dedica 10 minutos diarios a ejercicios de atención plena",
-          steps: [
-            "Encuentra un lugar tranquilo",
-            "Concéntrate en tu respiración",
-            "Observa tus pensamientos sin juzgarlos",
-            "Regresa suavemente tu atención cuando te distraigas"
-          ]
-        },
-        {
-          title: "Elimina distracciones",
-          description: "Crea un ambiente propicio para la escucha activa",
-          steps: [
-            "Silencia tu teléfono durante conversaciones importantes",
-            "Escoge lugares tranquilos para reuniones",
-            "Mantén tu espacio de trabajo ordenado",
-            "Evita multitareas durante conversaciones"
-          ]
-        },
-        {
-          title: "Mantén contacto visual consciente",
-          description: "Desarrolla una conexión visual apropiada",
-          steps: [
-            "Mira a los ojos de forma natural y cómoda",
-            "Alterna entre los ojos y puntos cercanos al rostro",
-            "Evita miradas fijas o intimidantes",
-            "Asiente ocasionalmente para mostrar atención"
-          ]
-        }
+          {
+              title: "Fundamentos de la Atención",
+              description: "Ejercicios básicos para mejorar tu capacidad de atención",
+              steps: [
+                  "Practica la técnica pomodoro: 25 minutos de concentración, 5 de descanso",
+                  "Elimina distracciones del entorno antes de cada conversación",
+                  "Mantén contacto visual moderado durante las conversaciones",
+                  "Toma notas breves durante conversaciones importantes"
+              ]
+          },
+          {
+              title: "Control de Distracciones",
+              description: "Técnicas para manejar elementos que dispersan la atención",
+              steps: [
+                  "Silencia notificaciones durante conversaciones importantes",
+                  "Encuentra un espacio tranquilo para conversaciones significativas",
+                  "Practica ejercicios de respiración cuando te sientas disperso",
+                  "Establece momentos específicos para revisar mensajes y correos"
+              ]
+          }
       ],
       advanced: [
-        {
-          title: "Técnicas de anclaje atencional",
-          description: "Desarrolla puntos de referencia para mantener la atención",
-          practices: [
-            "Usa recordatorios físicos (como un objeto en tu escritorio)",
-            "Establece palabras clave para reconectar",
-            "Practica ejercicios de respiración consciente",
-            "Desarrolla rutinas de atención plena"
-          ]
-        }
+          {
+              title: "Atención Plena Avanzada",
+              description: "Técnicas avanzadas de mindfulness y concentración",
+              steps: [
+                  "Practica meditación mindfulness por 20 minutos diarios",
+                  "Realiza ejercicios de visualización guiada",
+                  "Implementa técnicas de anclaje atencional",
+                  "Desarrolla un ritual personal de preparación mental"
+              ]
+          }
       ]
-    },
-  
-    "Comprensión y Procesamiento": {
+  },
+  "Comprensión y Procesamiento": {
       basic: [
-        {
-          title: "Practica el parafraseo activo",
-          description: "Reformula lo escuchado para mejorar comprensión",
-          steps: [
-            "Escucha el mensaje completo",
-            "Resume los puntos principales",
-            "Usa tus propias palabras para reformular",
-            "Verifica tu comprensión con el interlocutor"
-          ]
-        },
-        {
-          title: "Desarrollo de vocabulario contextual",
-          description: "Mejora tu comprensión del lenguaje en diferentes contextos",
-          steps: [
-            "Lee materiales variados sobre comunicación",
-            "Aprende terminología específica de tu campo",
-            "Practica el uso de sinónimos",
-            "Estudia expresiones comunes y su significado"
-          ]
-        },
-        {
-          title: "Análisis de lenguaje no verbal",
-          description: "Mejora tu capacidad de interpretar señales no verbales",
-          steps: [
-            "Observa expresiones faciales",
-            "Presta atención a la postura corporal",
-            "Nota los gestos y movimientos",
-            "Identifica patrones de comportamiento"
-          ]
-        }
+          {
+              title: "Comprensión Básica",
+              description: "Mejora tu capacidad de entender mensajes",
+              steps: [
+                  "Practica el parafraseo de mensajes simples",
+                  "Identifica las ideas principales de cada conversación",
+                  "Formula preguntas aclaratorias básicas",
+                  "Desarrolla un vocabulario más amplio"
+              ]
+          },
+          {
+              title: "Procesamiento Inicial",
+              description: "Desarrolla habilidades básicas de procesamiento",
+              steps: [
+                  "Toma notas estructuradas durante conversaciones",
+                  "Organiza la información en categorías simples",
+                  "Practica la síntesis de información básica",
+                  "Identifica patrones en la comunicación"
+              ]
+          }
       ],
       advanced: [
-        {
-          title: "Técnicas de procesamiento profundo",
-          description: "Desarrolla una comprensión más profunda",
-          practices: [
-            "Crea mapas mentales de conversaciones",
-            "Identifica patrones de comunicación",
-            "Analiza subtextos y contextos",
-            "Practica la escucha crítica"
-          ]
-        }
+          {
+              title: "Análisis Profundo",
+              description: "Técnicas avanzadas de procesamiento de información",
+              steps: [
+                  "Crea mapas mentales de conversaciones complejas",
+                  "Analiza patrones de comunicación recurrentes",
+                  "Desarrolla modelos mentales de comprensión",
+                  "Practica la identificación de subtextos"
+              ]
+          }
       ]
-    },
-  
-    "Retroalimentación": {
+  },
+  "Retroalimentación": {
       basic: [
-        {
-          title: "Implementa la técnica del espejo",
-          description: "Refleja el mensaje y las emociones del interlocutor",
-          steps: [
-            "Escucha atentamente el mensaje",
-            "Identifica la emoción subyacente",
-            "Repite el mensaje principal",
-            "Confirma tu interpretación"
-          ]
-        },
-        {
-          title: "Validación emocional",
-          description: "Reconoce y valida los sentimientos del otro",
-          steps: [
-            "Identifica la emoción expresada",
-            "Reconoce la legitimidad del sentimiento",
-            "Muestra empatía genuina",
-            "Ofrece apoyo apropiado"
-          ]
-        },
-        {
-          title: "Feedback constructivo",
-          description: "Aprende a dar y recibir retroalimentación efectiva",
-          steps: [
-            "Sé específico y objetivo",
-            "Enfócate en comportamientos, no personas",
-            "Sugiere mejoras concretas",
-            "Mantén una actitud positiva"
-          ]
-        }
+          {
+              title: "Feedback Básico",
+              description: "Aprende los fundamentos de la retroalimentación",
+              steps: [
+                  "Practica la técnica del sándwich de feedback",
+                  "Usa frases en primera persona para expresar opiniones",
+                  "Aprende a recibir críticas constructivas",
+                  "Desarrolla un vocabulario de feedback positivo"
+              ]
+          },
+          {
+              title: "Comunicación Asertiva",
+              description: "Mejora tu capacidad de dar y recibir feedback",
+              steps: [
+                  "Practica la escucha sin juzgar",
+                  "Aprende a dar feedback específico y constructivo",
+                  "Desarrolla habilidades de empatía básica",
+                  "Implementa técnicas de comunicación no violenta"
+              ]
+          }
       ],
       advanced: [
-        {
-          title: "Sistemas de retroalimentación avanzada",
-          description: "Desarrolla métodos sofisticados de feedback",
-          practices: [
-            "Implementa ciclos de retroalimentación",
-            "Desarrolla marcos de referencia",
-            "Crea planes de acción específicos",
-            "Establece métricas de mejora"
-          ]
-        }
+          {
+              title: "Retroalimentación Avanzada",
+              description: "Técnicas sofisticadas de feedback",
+              steps: [
+                  "Implementa sistemas de retroalimentación 360°",
+                  "Desarrolla habilidades de coaching",
+                  "Practica la facilitación de diálogos difíciles",
+                  "Crea planes de desarrollo basados en feedback"
+              ]
+          }
       ]
-    },
-  
-    "Preparación y Planificación": {
+  },
+  "Preparación y Planificación": {
       basic: [
-        {
-          title: "Establecimiento de objetivos comunicativos",
-          description: "Define claramente tus metas de comunicación",
-          steps: [
-            "Identifica el propósito principal",
-            "Define resultados esperados",
-            "Establece puntos clave a comunicar",
-            "Prepara preguntas relevantes"
-          ]
-        },
-        {
-          title: "Creación de ambiente propicio",
-          description: "Prepara el entorno para una comunicación efectiva",
-          steps: [
-            "Elige el momento adecuado",
-            "Selecciona el lugar apropiado",
-            "Minimiza distracciones potenciales",
-            "Asegura la privacidad necesaria"
-          ]
-        },
-        {
-          title: "Planificación estratégica",
-          description: "Desarrolla un plan de comunicación efectivo",
-          steps: [
-            "Anticipa posibles respuestas",
-            "Prepara ejemplos y analogías",
-            "Estructura tu mensaje",
-            "Considera el tiempo necesario"
-          ]
-        }
+          {
+              title: "Planificación Básica",
+              description: "Fundamentos de preparación para la comunicación",
+              steps: [
+                  "Establece objetivos claros antes de cada conversación",
+                  "Prepara puntos clave a discutir",
+                  "Organiza tus ideas en una estructura simple",
+                  "Anticipa preguntas básicas"
+              ]
+          },
+          {
+              title: "Organización Comunicativa",
+              description: "Mejora tu preparación para conversaciones",
+              steps: [
+                  "Crea listas de verificación pre-conversación",
+                  "Establece un ambiente propicio para el diálogo",
+                  "Prepara recursos de apoyo básicos",
+                  "Define tiempos y momentos adecuados"
+              ]
+          }
       ],
       advanced: [
-        {
-          title: "Técnicas avanzadas de preparación",
-          description: "Mejora tu planificación comunicativa",
-          practices: [
-            "Desarrolla escenarios alternativos",
-            "Crea scripts de contingencia",
-            "Implementa sistemas de seguimiento",
-            "Establece protocolos de comunicación"
-          ]
-        }
+          {
+              title: "Estrategias Avanzadas",
+              description: "Técnicas sofisticadas de preparación",
+              steps: [
+                  "Desarrolla planes de contingencia comunicativa",
+                  "Implementa análisis de stakeholders",
+                  "Crea mapas de influencia y poder",
+                  "Diseña estrategias de comunicación multinivel"
+              ]
+          }
       ]
-    },
-  
-    "Comportamiento en la Comunicación": {
+  },
+  "Comportamiento en la Comunicación": {
       basic: [
-        {
-          title: "Desarrollo de paciencia activa",
-          description: "Mejora tu capacidad de escucha sin interrumpir",
-          steps: [
-            "Practica el silencio consciente",
-            "Cuenta hasta tres antes de responder",
-            "Respira profundamente cuando sientas urgencia de interrumpir",
-            "Toma notas en lugar de interrumpir"
-          ]
-        },
-        {
-          title: "Gestión de sesgos",
-          description: "Identifica y maneja tus prejuicios comunicativos",
-          steps: [
-            "Reconoce tus sesgos personales",
-            "Cuestiona tus suposiciones",
-            "Busca perspectivas diferentes",
-            "Practica la apertura mental"
-          ]
-        },
-        {
-          title: "Cultivo de empatía",
-          description: "Desarrolla una comprensión más profunda de los demás",
-          steps: [
-            "Practica la perspectiva del otro",
-            "Reconoce emociones ajenas",
-            "Muestra interés genuino",
-            "Valida experiencias diferentes"
-          ]
-        }
+          {
+              title: "Conductas Básicas",
+              description: "Mejora tus comportamientos comunicativos esenciales",
+              steps: [
+                  "Practica el mantenimiento de contacto visual apropiado",
+                  "Desarrolla una postura corporal abierta",
+                  "Aprende a modular el tono de voz",
+                  "Mantén una expresión facial receptiva"
+              ]
+          },
+          {
+              title: "Gestión Emocional",
+              description: "Control básico de emociones en la comunicación",
+              steps: [
+                  "Identifica tus triggers emocionales",
+                  "Practica técnicas de respiración para la calma",
+                  "Desarrolla respuestas pausadas",
+                  "Aprende a manejar la frustración básica"
+              ]
+          }
       ],
       advanced: [
-        {
-          title: "Comunicación adaptativa avanzada",
-          description: "Desarrolla habilidades de comunicación flexible",
-          practices: [
-            "Adapta tu estilo según el contexto",
-            "Desarrolla múltiples aproximaciones",
-            "Implementa técnicas de calibración",
-            "Practica la comunicación situacional"
-          ]
-        }
+          {
+              title: "Comportamiento Avanzado",
+              description: "Dominio de la comunicación interpersonal",
+              steps: [
+                  "Implementa técnicas de calibración avanzada",
+                  "Desarrolla presencia ejecutiva",
+                  "Practica la influencia positiva",
+                  "Maneja dinámicas de grupo complejas"
+              ]
+          }
       ]
-    }
-  };
-  
-  export const getRecommendationsForLevel = (category, score) => {
-    const categoryData = recommendations[category];
-    const percentageScore = score / 100;
-  
-    if (percentageScore < 0.5) {
+  }
+};
+
+export const getRecommendationsForLevel = (category, score) => {
+  const categoryData = recommendations[category];
+  const percentageScore = score / 100;
+
+  if (percentageScore < 0.5) {
       return {
-        level: "basic",
-        recommendations: categoryData.basic
+          level: "basic",
+          recommendations: categoryData.basic
       };
-    } else {
+  } else {
       return {
-        level: "advanced",
-        recommendations: [...categoryData.basic, ...categoryData.advanced]
+          level: "advanced",
+          recommendations: [...categoryData.basic, ...categoryData.advanced]
       };
-    }
-  };
+  }
+};
